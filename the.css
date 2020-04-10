@@ -1,0 +1,96 @@
+*{
+  font-family: 'Lato', sans-serif;
+  color:rgb(171,178,191);
+}
+
+h1,h2,h4,h5{
+  font-weight: 700;
+  font-family: 'Karla', sans-serif;
+}
+
+p{
+}
+
+h4{
+  font-weight: 400;
+  font-family: 'Karla', sans-serif;
+}
+
+body{
+  background: rgb(40,44,52);
+}
+
+.link{
+  color:#abb2bf;
+}
+
+.link:hover{
+  color:#cad4e6;
+  text-decoration: none;
+}
+
+.ext-link{
+  color:#41af4b;
+  transition:.75s all;
+}
+.ext-link:hover{
+  color:#f5f5f5;
+  text-decoration: none;
+}
+
+.blog-link-pre{
+  color: rgb(117, 121, 130);
+  font-size: .8rem;
+}
+
+
+.center-content{
+  height: 40vh;
+}
+
+.middle{
+  margin-top:35vh;
+}
+
+.blog-middle{
+  margin-top:15vh;
+}
+
+.line-height-lg{
+
+        line-height: 1.7rem;
+}
+
+.line-height-md{
+  line-height: 2.5rem;
+}
+
+.line-height-sm{
+  line-height: .9rem;
+}
+
+.image{
+  max-width:1.5rem;
+}
+
+.name{
+  margin-left: -3px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .middle {
+      margin-top: 3rem;
+  }
+  .blog-section{
+      margin-top: 5rem;
+  }
+  .image{
+      max-width:1.5rem;
+  }
+  .blog-middle{
+    margin-top:3rem;
+  }
+
+
+}
